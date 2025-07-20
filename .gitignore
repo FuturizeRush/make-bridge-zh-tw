@@ -1,0 +1,85 @@
+# 操作系統產生的檔案
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 編輯器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日誌檔案
+*.log
+logs/
+
+# 依賴目錄
+node_modules/
+npm-debug.log*
+
+# 環境變數檔案
+.env
+.env.local
+.env.production
+
+# 暫存檔案
+tmp/
+temp/
+
+# 編譯輸出
+dist/
+build/
+out/
+
+# 測試覆蓋率報告
+coverage/
+
+# 套件管理器的快取
+.npm
+.yarn-integrity
+yarn-error.log
+
+# 文件構建輸出
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# GitBook 輸出
+_book/
+
+# 備份檔案
+*.bak
+*.backup
+
+# === Make Bridge 教學專案特定的排除 ===
+
+# Claude AI 相關檔案
+.claude/
+
+# PDF 原始檔案和擷取工具
+*.pdf
+pdf-parser-tool/
+pdf_extracted_content/
+parse_pdf*.py
+clean_pdf_content.py
+pdf_to_text.py
+
+# 工作報告和暫存檔案
+content_duplication_report.md
+CHANGELOG.md
+
+# 只保留教學文件相關內容
+# 教學文件檔案列表（不排除）:
+# - README.md
+# - SUMMARY.md
+# - LICENSE
+# - CONTRIBUTING.md
+# - CHANGELOG.md
+# - .gitignore
+# - 第0-12章的 .md 檔案
+# - 附錄_詞彙表與參考資源.md

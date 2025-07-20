@@ -1,0 +1,27 @@
+# GitHub Pages 配置
+theme: jekyll-theme-minimal
+title: Make Bridge 繁體中文技術指南
+description: 完整的 Make.com Bridge 開發教程
+author: Rush (@futurizerush)
+show_downloads: true
+google_analytics:
+
+# 導航選單
+navigation:
+  - title: 首頁
+    url: /
+  - title: 開始學習
+    url: /第0章_開始之前
+  - title: GitHub
+    url: https://github.com/FuturizeRush/make-bridge-zh-tw
+
+# 外掛程式
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 排除檔案
+exclude:
+  - LICENSE
+  - CONTRIBUTING.md
+  - .gitignore
